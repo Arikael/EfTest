@@ -19,7 +19,7 @@ namespace EfTest.Db
             var test = AppDomain.CurrentDomain.GetData("DataDirectory");
 
             var builder = new DbContextOptionsBuilder<TestDbContext>();
-            builder.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\haehadmin\Documents\Projects\EfTest\EfTest\EfTest.mdf;Integrated Security=True;Connect Timeout=30");
+            builder.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=[PATH]\EfTest.mdf;Integrated Security=True;Connect Timeout=30");
             builder.UseLazyLoadingProxies();
 
             return new TestDbContext(builder.Options);
