@@ -12,11 +12,10 @@ namespace EfTest
         {
             using (var context = new TestDbContextFactory().CreateDbContext())
             {
+                // remove the Navigation Property Company on Person and the query below works.
+
                 var test = context.Bases.ToList();
             }
         }
-
-
-
     }
 }

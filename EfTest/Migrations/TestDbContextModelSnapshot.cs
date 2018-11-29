@@ -53,8 +53,6 @@ namespace EfTest.Migrations
 
                     b.Property<DateTime>("Birthday");
 
-                    b.Property<Guid?>("CompanyId");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(80);
@@ -63,18 +61,9 @@ namespace EfTest.Migrations
 
                     b.Property<string>("SozialVersicherungsNr");
 
-                    b.HasIndex("CompanyId");
-
                     b.ToTable("AdBase");
 
                     b.HasDiscriminator().HasValue("Person");
-                });
-
-            modelBuilder.Entity("EfTest.Entites.Person", b =>
-                {
-                    b.HasOne("EfTest.Entites.Company", "Company")
-                        .WithMany()
-                        .HasForeignKey("CompanyId");
                 });
 #pragma warning restore 612, 618
         }
