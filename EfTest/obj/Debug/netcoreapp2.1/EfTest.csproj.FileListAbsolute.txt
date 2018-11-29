@@ -1,0 +1,11 @@
+C:\Users\haehadmin\Documents\Projects\EfTest\EfTest\bin\Debug\netcoreapp2.1\EfTest.deps.json
+C:\Users\haehadmin\Documents\Projects\EfTest\EfTest\bin\Debug\netcoreapp2.1\EfTest.runtimeconfig.json
+C:\Users\haehadmin\Documents\Projects\EfTest\EfTest\bin\Debug\netcoreapp2.1\EfTest.runtimeconfig.dev.json
+C:\Users\haehadmin\Documents\Projects\EfTest\EfTest\bin\Debug\netcoreapp2.1\EfTest.dll
+C:\Users\haehadmin\Documents\Projects\EfTest\EfTest\bin\Debug\netcoreapp2.1\EfTest.pdb
+C:\Users\haehadmin\Documents\Projects\EfTest\EfTest\obj\Debug\netcoreapp2.1\EfTest.csprojAssemblyReference.cache
+C:\Users\haehadmin\Documents\Projects\EfTest\EfTest\obj\Debug\netcoreapp2.1\EfTest.csproj.CoreCompileInputs.cache
+C:\Users\haehadmin\Documents\Projects\EfTest\EfTest\obj\Debug\netcoreapp2.1\EfTest.AssemblyInfoInputs.cache
+C:\Users\haehadmin\Documents\Projects\EfTest\EfTest\obj\Debug\netcoreapp2.1\EfTest.AssemblyInfo.cs
+C:\Users\haehadmin\Documents\Projects\EfTest\EfTest\obj\Debug\netcoreapp2.1\EfTest.dll
+C:\Users\haehadmin\Documents\Projects\EfTest\EfTest\obj\Debug\netcoreapp2.1\EfTest.pdb
